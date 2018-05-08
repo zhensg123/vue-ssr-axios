@@ -1,0 +1,44 @@
+{
+  "name": "vuessr1",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "zhenshigang <zhenshigang@jinglianwang.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build:client": "webpack --config ./build/webpack.client.config.js",
+    "build:server": "webpack --config ./build/webpack.server.config.js"
+  },
+  "dependencies": {
+    "vue": "^2.5.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.0.5",
+    "vue-router": "^3.0.1",
+    "vue-server-renderer": "^2.5.16",
+    "vue-template-compiler": "^2.4.4",
+    "vuex": "^3.0.0",
+    "vuex-router-sync": "^5.0.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
